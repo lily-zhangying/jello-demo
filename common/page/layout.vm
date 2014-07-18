@@ -7,10 +7,11 @@
     <meta content="" name="description">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Demo</title>
+
     #require("common:static/css/bootstrap.css")
     #require("common:static/css/bootstrap-theme.css")
-    #require("common:static/js/jquery-1.10.2.js")
-    #require("common:static/js/bootstrap.js")
+    #require("common:widget/bootstrap/bootstrap.js")
+
   #end ## end head
 
 #body()
