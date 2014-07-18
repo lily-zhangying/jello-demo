@@ -5,7 +5,7 @@
     #require("home:static/css/carousel.css")
     
     #widget("common:widget/nav/nav.vm")
- <div id="forkongithub">
+    <div id="forkongithub">
         <a target="_blank" href="https://github.com/fex-team/jello"> Github</a>
     </div>
     #widget("common:widget/carousel/carousel.vm")
@@ -13,5 +13,6 @@
 
 #end ## end block
 
+## require 当前page页面，保证Jello把页面对应资源加入依赖管理。
 #require("home:page/index.vm")
 #end
