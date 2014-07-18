@@ -1,0 +1,17 @@
+#extends("common:page/layout.vm")
+
+#block("body_content")
+
+    #require("home:static/css/carousel.css")
+    
+    #widget("common:widget/nav/nav.vm")
+ <div id="forkongithub">
+        <a target="_blank" href="https://github.com/fex-team/jello"> Github</a>
+    </div>
+    #widget("common:widget/carousel/carousel.vm")
+    #widget("home:widget/feature/feature.vm")
+
+#end ## end block
+
+#require("home:page/index.vm")
+#end

@@ -1,0 +1,43 @@
+<!-- Carousel
+    ================================================== -->
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+
+       #foreach( $item in $carousel.inner )
+          #if($item.page == 0)
+            <li data-target="#myCarousel" data-slide-to="$item.page" class="active"></li>          
+          #else
+            <li data-target="#myCarousel" data-slide-to="$item.page"></li>
+          #end
+       #end
+
+      </ol>
+
+      <div class="carousel-inner">
+
+        #foreach( $item in $carousel.inner )
+          #if($item.page == 0)
+            <div class="item active">
+          #else
+            <div class="item">
+          #end
+          
+          ## <img src="$item.img" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>$item.title</h1>
+              <p>$item.content</p>
+              <p><a class="btn btn-lg btn-primary" href="$item.href" role="button">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+
+        #end
+
+      </div>
+
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div><!-- /.carousel -->

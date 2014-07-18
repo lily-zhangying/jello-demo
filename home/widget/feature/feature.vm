@@ -1,0 +1,66 @@
+ <div class="container marketing">
+
+      #set ($num = 0)
+      #foreach( $item in $feature )
+        #if ($num % 3 == 0)
+          <div class="row">
+        #end
+     
+
+        <div class="col-lg-4">
+          <h2><i class="$item.img">&nbsp;$item.title</i></h2>
+          ## <h2>$item.title</h2>
+          <p>$item.content</p>
+          ## <p><a class="btn btn-default" href="$item.href" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+
+        #if ($num % 3 == 2)
+          </div>
+        #end
+      
+        #set($num = $num + 1)
+      #end
+      
+
+      #set ($col = 0)
+      <!-- START THE FEATURETTES -->
+      #foreach ($item in $description)
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+
+          #if ($col % 2 == 0)
+            <div class="col-md-8">
+            <h2 class="featurette-heading">$item.title<span class="text-muted"></span></h2>
+            <p class="lead">$item.content</p>
+            </div>
+            <div class="col-md-4"></div>
+
+          #else
+
+            <div class="col-md-4"></div>
+            <div class="col-md-8">
+            <h2 class="featurette-heading">$item.title<span class="text-muted"></span></h2>
+            <p class="lead">$item.content</p>
+            </div>
+
+          #end
+
+        </div>
+
+      #set($col = $col + 1)
+      #end
+      
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+
+
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy;  FIS@2014 </p>
+      </footer>
+
+    </div><!-- /.container -->

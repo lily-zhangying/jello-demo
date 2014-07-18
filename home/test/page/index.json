@@ -1,0 +1,118 @@
+{
+    "title" : "Jello",
+    "nav" : {
+        "brand" : {
+            "name" : "Jello ",
+            "href" : ""
+        },
+        "navbar" : [
+           
+            {
+                "name" : "FIS ",
+                "href" : "https://github.com/fex-team/fis"
+            }
+        ],
+        "drop-down" : [
+            {
+                "name" : "其他解决方案",
+                "li" : [
+                    { "name" : "FIS", "href" : "https://github.com/fex-team/fis"},
+                    { "name" : "FIS-PLUS", "href" : "https://github.com/fex-team/fis-plus"},
+                    { "name" : "Yogurt", "href" : "https://github.com/fex-team/yogurt"},
+                    { "name" : "Jello", "href" : "https://github.com/fex-team/jello"}
+                ]
+            }
+        ]
+    },
+    "carousel" : {
+        "inner" : [
+            {
+                "title" : "Jello &nbsp;&nbsp; ['dʒeləu]",
+                "content" : "服务端为 JAVA + Velocity 的前端集成解决方案。<br />
+                为优化前端开发而生，提供前后端开发分离、自动性能优化、模块化开发机制等。<br />满足一切前端开发需求。",
+                "page" : "0",
+                "href" : "https://github.com/fex-team/jello"
+            },
+            {
+                "title" : "前后端分离,&nbsp; 自动性能优化",
+                "content" : "基于 velocity 模板引擎实现前后端分离，让前端攻城师更专注于 JS、CSS、VM  文件编写，提供简单线上环境模拟，让你轻松的预览线上效果。
+                <br />基于 velocity 扩展多种标签，实现FIS静态资源管理系统，自动优化性能。",
+                "href" : "https://github.com/fex-team/jello",
+                 "page" : "1"
+            },
+            {
+                "title" : "模板继承机制, 模块化开发, 简单环境安装",
+                "content" : "扩展 velocity 实现模板继承功能，让模板使用更灵活。 <br />
+                提供模块化机制 —— widget 组件化与 js amd 加载，便于代码拆分与复用。 <br />
+                内嵌 j2ee 开发服务器，让你无需纠结环境搭建，一条命令即可本地调试",
+                "href" : "https://github.com/fex-team/jello",
+                 "page" : "3"
+            }
+        ]
+    },
+    "feature" : [
+        {
+            "img" : "glyphicon glyphicon-edit",
+            "title" : "Create",
+            "content" : "快速搭建项目，提供灵活的脚手架工具，辅助项目开发，能够生成项目、页面、模块、插件等各类资源。",
+            "href" : "",
+            "row" : "1"
+
+        },
+        {
+            "img" : "glyphicon glyphicon-transfer",
+            "title" : "Compile",
+            "content" : "自动化构建，支持对文件进行编译、校验、压缩、合并、优化，自动处理静态资源内嵌、路径替换、md5时间戳、依赖关系。",
+            "href" : ""
+        },
+        {
+            "img" : "glyphicon glyphicon-pause",
+            "title" : "Debug",
+            "content" : "便捷的本地调试环境，内置调试服务器，支持数据及请求模拟、文件监听、浏览器自动刷新",
+            "href" : ""
+        },
+        {
+            "img" : "glyphicon glyphicon-stats",
+            "title" : "Framework",
+            "content" : "基于模块化的高性能前后端开发框架，可以根据终端灵活控制资源输出策略，有效监控资源加载情况并自动优化网站性能。",
+            "href" : "",
+            "row" : "2"
+        },
+        {
+            "img" : "glyphicon glyphicon-resize-full",
+            "title" : "Extend",
+            "content" : "灵活扩展性，插件系统机制，支持对构建过程和命令功能进行扩展。",
+            "href" : ""
+        },
+        {
+            "img" : "glyphicon glyphicon-send",
+            "title" : "Deploy",
+            "content" : "一键部署，满足任何前后端框架的发布部署，简化部署流程，来达到更快、更可靠、低成本的自动化项目交付",
+            "href" : ""
+        }
+        
+    ],
+    "description" : [
+        {
+            "title" : "什么是Jello",
+            "content" : "服务端为 JAVA + Velocity 的前端集成解决方案。<br />
+                为优化前端开发而生，提供前后端开发分离、自动性能优化、模块化开发机制等。<br />满足一切前端开发需求。"
+        },
+        {
+            "title" : "Jello & FIS",
+            "content" : "FIS是专为解决前端开发中自动化工具、性能优化、模块化框架、开发规范、代码部署、开发流程等问题的工具框架。 <br/> Jello是基于FIS封装出的JAVA + Velocity 解决方案 "
+        },
+        {
+            "title" : "Jello特性",
+            "content" : " 1. 前后端分离 <br/> 2. 自动性能优化<br/> 3. 模板继承机制 <br/> 4. 模块化开发<br/> 5. 简单环境安装<br/> 6. 前往 Jello github了解更多 <br/ >" 
+        },
+        {
+            "title" : "联系我们",
+            "content" : 
+                "github: https://github.com/fex-team/jello <br/>
+                Hi群：1383676 <br/>
+                QQ群：315973236  <br/>
+                微博：http://weibo.com/u/3761993695 "
+        }
+    ]
+}

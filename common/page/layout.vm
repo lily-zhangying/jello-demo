@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+  #html("common:static/js/mod.js")
+
+  #head()
+    <meta charset="utf-8"/>
+    <meta content="" name="description">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Demo</title>
+    #require("common:static/css/bootstrap.css")
+    #require("common:static/css/bootstrap-theme.css")
+    #require("common:static/js/jquery-1.10.2.js")
+    #require("common:static/js/bootstrap.js")
+  #end ## end head
+
+#body()
+<div id="wrapper">
+
+  #block("body_content")
+      this is layout body.
+  #end
+</div>
+#end ## end body
+
+#require("common:page/layout.vm")
+#end ## end html
